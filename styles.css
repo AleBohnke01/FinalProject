@@ -1,0 +1,19 @@
+body {
+    background-color: lightcyan;
+    color: indigo;
+}
+
+div.centered {
+    text-align: center;
+}
+
+div.red {
+    color: red;
+}
+
+hr {
+
+    height: 5px;
+    border-color: indigo;
+    background-color: indigo;
+}

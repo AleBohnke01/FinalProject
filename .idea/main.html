@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="JavaScripts.js"></script>
+    <title>Project 2</title>
+</head>
+<body>
+
+<table>
+    <tr>Select workshop(s):</tr>
+    <tr>
+        <td><input type="checkbox" id="chkStress"></td>
+        <td>Handling Stress</td>
+        <td>$225.00</td>
+        <td><div id="divErrorMessage"></div></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="chkTime"></td>
+        <td>Time Management</td>
+        <td>$200.00</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="chkSupervision"></td>
+        <td>Supervision Skills</td>
+        <td>$250.00</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="chkNegotiation"></td>
+        <td>Negotiation Skills</td>
+        <td>$175.00</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="chkInterview"></td>
+        <td>Interview Skills</td>
+        <td>$155.00</td>
+    </tr>
+</table>
+
+
+<table>
+    <tr>Select Location:</tr>
+    <tr>
+        <td><input type="radio" name="location" id="radAustin" checked= true>Austin</td>
+        <td>$150.00</td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="location" id="radChicago">Chicago</td>
+        <td>$225.00</td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="location" id="radDallas">Dallas</td>
+       <td>$175.00</td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="location" id="radOrlando">Orlando</td>
+        <td>$300.00</td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="location" id="radPhoenix">Phoenix</td>
+        <td>$175.00</td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="location" id="radRaleigh">Raleigh</td>
+        <td>$150.00</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td><input type="checkbox" id="chkEnableDiscount"></td>
+        <td>Enable Discount</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td><input type="radio" name="discount" id="radGold" disabled = true>Gold (25.00%)</td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="discount" id="radSilver" disabled = true>Silver (15.00%)</td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="discount" id="radBronze" disabled = true>Bronze (10.00%)</td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="discount" id="radCopper" disabled = true>Copper (5.00%)</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td><input type="checkbox" id="chkTaxExempt"></td>
+        <td>Tax Exempt</td>
+    </tr>
+</table>
+
+<input type="button" value="Submit" onclick="Calculate()">
+<input type="button" value="Clear" onclick="ClearInput()">
+
+<hr>
+
+<table>
+    <tr>
+        <td>Workshop Total:</td>
+        <td>SHOW TOTAL</td>
+    </tr>
+    <tr>
+        <td>Lodging Total:</td>
+        <td>SHOW TOTAL</td>
+    </tr>
+    <tr>
+        <td>Discount Amount:</td>
+        <td>SHOW DISCOUNT</td>
+    </tr>
+    <tr>
+        <td>Sales Tax Amount:</td>
+        <td>SHOW SALES TAX</td>
+    </tr>
+    <tr>
+        <td>Total Due:</td>
+        <td>SHOW TOTA DUEL</td>
+    </tr>
+</table>
+
+</body>
+</html>
